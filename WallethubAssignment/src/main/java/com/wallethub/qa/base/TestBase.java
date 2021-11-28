@@ -50,7 +50,7 @@ public class TestBase {
 		else if (browserName.equals("IE")) {
 
 			System.setProperty("webdriver.ie.driver",
-					"C:\\Users\\laxmi\\eclipse-workspace1\\WallethubAssignment\\Drivers\\IEDriverServer.exe");
+					"C:\\Users\\laxmi\\git\\WalletHubAssignment\\WallethubAssignment\\Drivers\\chromedriver.exe");
 			driver = new InternetExplorerDriver();
 		}
 
