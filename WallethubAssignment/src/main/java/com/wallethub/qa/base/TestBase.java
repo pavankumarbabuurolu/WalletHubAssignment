@@ -43,14 +43,14 @@ public class TestBase {
 			ops.addArguments("--disable-notifications");
 			// set chrome driver path here
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\laxmi\\eclipse-workspace1\\WallethubAssignment\\Drivers\\chromedriver.exe");
+					"C:\\Dev\\Tools\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver(ops);
 		}
 
 		else if (browserName.equals("IE")) {
 
 			System.setProperty("webdriver.ie.driver",
-					"C:\\Users\\laxmi\\git\\WalletHubAssignment\\WallethubAssignment\\Drivers\\chromedriver.exe");
+					":\\Users\\laxmi\\git\\WalletHubAssignment\\WallethubAssignment\\driver\\chromedriver.exe");
 			driver = new InternetExplorerDriver();
 		}
 

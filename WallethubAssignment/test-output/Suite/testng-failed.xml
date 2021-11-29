@@ -6,13 +6,14 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.wallethub.qa.testcases.HomePageTest">
+      <class name="com.wallethub.qa.testcases.TestInsuranceReview">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="PostStatusmess"/>
+          <include name="writeReview"/>
+          <include name="verifyReview"/>
         </methods>
-      </class> <!-- com.wallethub.qa.testcases.HomePageTest -->
+      </class> <!-- com.wallethub.qa.testcases.TestInsuranceReview -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
