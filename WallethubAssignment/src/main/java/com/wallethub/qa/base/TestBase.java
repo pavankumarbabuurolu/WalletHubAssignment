@@ -24,8 +24,7 @@ public class TestBase {
 		prop = new Properties();
 		// Access properties file
 		try {
-			FileInputStream fis = new FileInputStream("C:\\Users\\laxmi\\eclipse-workspace1\\WallethubAssignment\\src"
-					+ "\\main\\java\\com\\wallethub\\qa\\configuration\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\laxmi\\git\\WalletHubAssignment\\WallethubAssignment\\src\\main\\java\\com\\wallethub\\qa\\configuration\\config.properties");
 
 			prop.load(fis);
 		} catch (IOException e) {
